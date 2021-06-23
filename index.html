@@ -5,16 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NLW - OriginSix</title>
+    <link rel="stylesheet" href="./assets/fonts/style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="header">
+    <header id="header" class="scroll">
         <nav class="container">
             <a class="logo" href="#">beauty<span>salon</span></a> 
-            <div class="menu">...</div>
+            <div class="menu">
+                <ul class="grid">
+                    <li><a class="title" href="#home">Início</a></li>
+                    <li><a class="title" href="#about">Sobre</a></li>
+                    <li><a class="title"  class="title"href="#services">Serviços</a></li>
+                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="title" href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
         </nav>    
     </header>
     <main>
@@ -24,16 +35,60 @@
                     <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="Mulher sorrindo penteando outra mulher">
                 </div>
                 <div class="text">
-                    <h1>Saúde natural para os seus cabelos</h1>
+                    <h2 class="title">Saúde natural para os seus cabelos</h2>
                     <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais.</p>
                     <a class="button" href="">Agendar um horário</a>
                 </div>
             </div>
         </section>
         <div class="divider-1"></div>
-        <section class="section" id="home">
-            <div class="container"></div>
+        <section class="section" id="about">
+            <div class="container grid">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" 
+                    alt="3 mulheres sorindo">
+                </div>
+                <div class="text">
+                    <h2 class="title">Sobre Nós</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi totam officiis corporis eveniet deserunt exercitationem, assumenda nam dolore similique magnam asperiores quas, sapiente officia explicabo alias facilis nisi cupiditate suscipit?</p><br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa commodi, maxime saepe reprehenderit sint esse amet cumque expedita, pariatur aperiam nulla, labore tenetur eligendi ad tempora laborum architecto similique molestias.</p><br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis tempora, iste non cum pariatur quis culpa perspiciatis ea, modi laudantium quidem similique maiores amet. Labore quaerat id sit a fugiat!</p>
+                </div>
+            </div>
+        </section>
+        <div class="divider-2"></div>
+        <section class="section" id="services">
+            <div class="container grid">
+                <header>
+                    <h2 class="title">Serviços</h2>
+                    <p>Lorem, ipsum dolor sit amet <strong>adipisicing</strong>elit. Expedita ut asperiores, illo iste saepe</p>
+                </header>
+                <div class="cards">
+                    <div class="card">
+                        <i class="icon-woman-hair"></i>
+                        <h3 class="title">Tratamento</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, facere sed voluptas distinctio, doloremque, 
+                            totam quia sit inventore animi neque quam ea amet architecto perspiciatis molestiae dolore praesentium vel
+                             ipsam!</p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-trim"></i>
+                        <h3 class="title">Corte</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aspernatur tempore dolores unde reiciendis 
+                            pariatur? Voluptates blanditiis similique ut? Unde natus sequi beatae dolores dignissimos, quis molestiae 
+                            ducimus possimus ipsum.</p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-cosmetic"></i>
+                        <h3 class="title">Terapia Capilar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas inventore possimus assumenda 
+                            iste sequi odit eum nesciunt aspernatur neque recusandae, rerum, accusantium officia consectetur odio sint! 
+                            Fuga, reiciendis sunt!</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>
