@@ -23,6 +23,6 @@ window.addEventListener('scroll', function(){
     if(window.scrollY >= navHeight){
         header.classList.add('scroll')
     }else{
-        header.classList.remover('scroll')
+        header.classList.remove('scroll')
     }
 })
