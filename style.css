@@ -143,6 +143,9 @@ main {
 .logo span {
   color: var(--base-color);
 }
+.logo-alt span{
+  color: var(--body-color);
+}
 
 /*====  NAVIGATION ============================ */
 nav {
@@ -411,6 +414,41 @@ nav.show div.icon-close {
 #contact ul li i {
   color: var(--base-color);
 }
+
+footer{
+  background-color: var(--base-color);
+}
+
+footer .logo {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+footer .brand p{
+  color: var(--text-color-light);
+  margin-bottom: 00.75rem;
+}
+footer i {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+
+}
+footer .social a{
+  margin-right: 2rem;
+}
+/* large devices: 1023 > */
+/* large devices: 992 > */
+@media (min-width: 992px) {
+  :root {
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.125rem;
+  }
+}
+/* medium devices: 767 > */
+
+
+
+
+
 
 
 
